@@ -71,10 +71,11 @@ const Navbar = ({ darkMode, setDarkMode }: DarkMode) => {
                     Home
                   </Link>
                 </li>
-                <li>
+                <li className="mb-2">
                   <Link
                     to="/studio"
-                    className="text-dark font-bold hover:font-extrabold dark:text-light"
+                    className="text-dark font-bold m-5 text-4xl hover:font-extrabold dark:text-light"
+                    onClick={() => isMenuOpen(!menuOpen)}
                   >
                     Studio
                   </Link>
@@ -111,9 +112,9 @@ const Navbar = ({ darkMode, setDarkMode }: DarkMode) => {
         className="bg-light dark:bg-dark sticky top-0 z-10 flex  md:hidden w-full justify-between shadow-2xl dark:shadow-[#bbbbbb17]"
       >
         {!darkMode ? (
-          <img src={Logo} width={40} height={40} className="ml-5" />
+          <img src={Logo} width={120} height={120} className="ml-5" />
         ) : (
-          <img src={LogoDark} width={40} height={40} className="ml-5" />
+          <img src={LogoDark} width={120} height={120} className="ml-5" />
         )}
 
         <button className="m-5" onClick={() => isMenuOpen(!menuOpen)}>
@@ -127,13 +128,13 @@ const Navbar = ({ darkMode, setDarkMode }: DarkMode) => {
           width: "100%",
         }}
         transition={{ duration: 0.5 }}
-        className="bg-light dark:bg-dark hidden sticky top-0 z-10  p-4 md:flex min-w-full justify-center  shadow-2xl dark:shadow-[#bbbbbb17]"
+        className="bg-light dark:bg-dark hidden sticky top-0 z-10  p-2 md:flex min-w-full justify-center  shadow-2xl dark:shadow-[#bbbbbb17]"
       >
-        <div className="flex justify-between w-[90%] max-w-screen-xl">
+        <div className="flex justify-between min-w-[90%] max-w-screen-xl">
           {!darkMode ? (
-            <img src={Logo} width={100} height={40} />
+            <img src={Logo} width={115} height={140} />
           ) : (
-            <img src={LogoDark} width={100} height={40} />
+            <img src={LogoDark} width={115} height={140} />
           )}
           <ul className="flex space-x-4 my-auto">
             <li>

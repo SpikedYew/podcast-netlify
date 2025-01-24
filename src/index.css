@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+
+/* Default light mode styles */
+body {
+  @apply dark:bg-dark bg-light; /* Light background and text */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Dark mode styles */
+html.dark body {
+  @apply dark:bg-dark bg-light; /* Dark background and white text */
+}
+/* Light mode */

@@ -30,7 +30,7 @@ function AnimateRoutes({ darkMode }: DarkMode) {
           path="/studio"
           element={
             <PageWrapper>
-              <Studio />
+              <Studio darkMode={darkMode} />
             </PageWrapper>
           }
         />

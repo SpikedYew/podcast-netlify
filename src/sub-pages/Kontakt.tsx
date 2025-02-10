@@ -1,9 +1,27 @@
 import ContactForm from "../components/ContactForm";
 import { DarkMode } from "../App";
+import { Helmet } from "react-helmet";
 
 export default function Kontakt({ darkMode }: DarkMode) {
   return (
     <>
+      <Helmet>
+        <title>Kontakt</title>
+        <meta
+          name="description"
+          content="Poznaj nas blizej i dowiedz się co takiego tworzymy w naszym studio!"
+        />
+        <meta name="keywords" content="" />
+
+        <meta property="og:title" content="Amazing Website" />
+        <meta
+          property="og:description"
+          content="This is a great website about amazing topics."
+        />
+        <meta property="og:image" content="/studio-uszko-og.png" />
+        <meta property="og:url" content="/studio-uszko-og.png" />
+      </Helmet>
+
       <h2 className="font-bold text-xl md:text-2xl text-center md:center mt-14">
         {/* Zostaw nam wiadmość, odezwiemy się do 24h! */}
         Test!

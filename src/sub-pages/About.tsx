@@ -1,5 +1,5 @@
-import UsComponent from "../components/UsAbout";
 import { Helmet } from "react-helmet";
+import UsComponent from "../components/UsAbout";
 
 export default function About() {
   return (
@@ -20,6 +20,7 @@ export default function About() {
         <meta property="og:image" content="/studio-uszko-og.png" />
         <meta property="og:url" content="/studio-uszko-og.png" />
       </Helmet>
+
       <div>
         <UsComponent />
       </div>

@@ -42,19 +42,19 @@ export default function ContactForm() {
 
       emailjs
         .sendForm(
-          "service_k7qhc75", // Replace with your EmailJS service ID
-          "template_xh535av", // Replace with your EmailJS template ID
+          "service_qmtj0sh", // Replace with your EmailJS service ID
+          "template_tzyx9ql", // Replace with your EmailJS template ID
           form.current,
-          "Dyr_-S3nlramjWkux" // Replace with your EmailJS public key
+          "H_x5A8FoHckXyCJZj" // Replace with your EmailJS public key
         )
         .then(
           () => {
             console.log("SUCCESS!");
-            alert("Message sent successfully!");
+            alert("Wiadomość została wysłana!");
           },
           (error: any) => {
             console.error("FAILED...", error.text);
-            alert("Message failed to send.");
+            alert("Wiadomość nie została wysłana...");
           }
         )
         .finally(() => {

@@ -54,7 +54,9 @@ export default function Fotter() {
       </div>
 
       <div className="text-center mt-4 mb-4">
-        <p className="text-dark dark:text-light">&copy; 2025 Studio Uszko</p>
+        <p className="text-dark dark:text-light">
+          &copy; {new Date().getFullYear()} Studio Uszko
+        </p>
       </div>
     </>
   );

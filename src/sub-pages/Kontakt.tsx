@@ -1,7 +1,5 @@
 import ContactForm from "../components/ContactForm";
-export interface DarkMode {
-  darkMode: boolean;
-}
+import { DarkMode } from "../App";
 
 export default function Kontakt({ darkMode }: DarkMode) {
   return (

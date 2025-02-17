@@ -13,7 +13,7 @@ export default function Carousel({ darkMode }: DarkMode) {
         <BsArrowRightCircleFill size={40} fill={darkMode ? "white" : "black"} />
         {/* <span className="absolute">
           <BsArrowLeftCircleFill fill="white" />
-        </span> */}
+        </span> ss*/}
       </div>
     </>
   );

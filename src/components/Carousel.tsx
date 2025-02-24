@@ -1,9 +1,11 @@
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import photo from "../assets/gal/1.jpg";
+import data from "./carouselData.json";
 export interface DarkMode {
   darkMode: boolean;
 }
+
 export default function Carousel({ darkMode }: DarkMode) {
   return (
     <>

@@ -6,6 +6,7 @@ import About from "./sub-pages/About";
 import Kontakt from "./sub-pages/Kontakt";
 import Studio from "./sub-pages/Studio";
 import Fotter from "./components/Fotter";
+import Oferta from "./sub-pages/Oferta";
 import { AnimatePresence, motion } from "framer-motion";
 import { ReactNode } from "react";
 import { useEffect, useState } from "react";
@@ -31,6 +32,14 @@ function AnimateRoutes({ darkMode }: DarkMode) {
           element={
             <PageWrapper>
               <Studio darkMode={darkMode} />
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/oferta"
+          element={
+            <PageWrapper>
+              <Oferta darkMode={darkMode} />
             </PageWrapper>
           }
         />

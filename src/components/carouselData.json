@@ -1,16 +1,18 @@
 {
   "slides": [
     {
-      "src": "../assets/gal/1.png",
+      "src": "studio-uszko-og.png",
       "alt": ""
     },
     {
-      "src": "../assets/gal/1.png",
+      "src": "1.png",
       "alt": ""
     },
     {
-      "src": "../assets/gal/1.png",
+      "src": "1.png",
       "alt": ""
     }
   ]
 }
+
+//json photos have to be in public

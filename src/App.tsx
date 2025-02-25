@@ -39,7 +39,7 @@ function AnimateRoutes({ darkMode }: DarkMode) {
           path="/oferta"
           element={
             <PageWrapper>
-              <Oferta />
+              <Oferta darkMode={darkMode} />
             </PageWrapper>
           }
         />

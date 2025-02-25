@@ -91,6 +91,15 @@ const Navbar = ({ darkMode, setDarkMode }: DarkMode) => {
                 </li>
                 <li className="mb-2">
                   <Link
+                    to="/oferta"
+                    className="text-dark font-bold m-5 text-4xl hover:font-extrabold dark:text-light"
+                    onClick={() => isMenuOpen(!menuOpen)}
+                  >
+                    Oferta
+                  </Link>
+                </li>
+                <li className="mb-2">
+                  <Link
                     to="/kontakt"
                     className="text-dark font-bold m-5 text-4xl hover:font-extrabold dark:text-light"
                     onClick={() => isMenuOpen(!menuOpen)}
@@ -159,6 +168,15 @@ const Navbar = ({ darkMode, setDarkMode }: DarkMode) => {
                 className="text-dark font-bold hover:font-extrabold dark:text-light"
               >
                 O nas
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/oferta"
+                className="text-dark font-bold hover:font-extrabold dark:text-light"
+                onClick={() => isMenuOpen(!menuOpen)}
+              >
+                Oferta
               </Link>
             </li>
             <li>

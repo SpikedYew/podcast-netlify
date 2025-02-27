@@ -10,6 +10,7 @@ import Oferta from "./sub-pages/Oferta";
 import { AnimatePresence, motion } from "framer-motion";
 import { ReactNode } from "react";
 import { useEffect, useState } from "react";
+// import Booking from "./sub-pages/Booking";
 export interface DarkMode {
   darkMode: boolean;
 }
@@ -39,7 +40,7 @@ function AnimateRoutes({ darkMode }: DarkMode) {
           path="/oferta"
           element={
             <PageWrapper>
-              <Oferta />
+              <Oferta darkMode={darkMode} />
             </PageWrapper>
           }
         />
@@ -51,6 +52,14 @@ function AnimateRoutes({ darkMode }: DarkMode) {
             </PageWrapper>
           }
         />
+        {/* <Route
+          path="/rezerwacja"
+          element={
+            <PageWrapper>
+              <Booking />
+            </PageWrapper>
+          }
+        /> */}
         <Route
           path="/kontakt"
           element={
@@ -70,44 +79,6 @@ interface PageWrapperProps {
 function PageWrapper({ children }: PageWrapperProps) {
   return (
     <>
-      {/* <motion.div
-        className="bg-white dark:bg-black shadow-2xl shadow-[#00000011] "
-        initial={{
-          x: "-100vw",
-          width: "100vw",
-          height: "100vh",
-          opacity: 1,
-          rotate: 60,
-        }}
-        animate={{
-          x: 0,
-          width: "0vw", // Shrink the width during the animation, doesn't cover content
-          height: "100vh",
-          opacity: 1,
-          rotate: 60,
-        }}
-        exit={{
-          x: "100vw",
-          width: "100vw",
-          height: "100vh",
-          opacity: 1,
-          rotate: 60,
-        }}
-        transition={{
-          opacity: { duration: 0.5, delay: 0.5 },
-          x: { duration: 0.8, delay: 0.2 },
-        }}
-        style={{
-          position: "absolute", // Keeps it out of the page flow
-          top: 0,
-          left: 0,
-          zIndex: 10, // Ensure it's behind the content
-          pointerEvents: "none", // Prevent it from interfering with user interaction
-          overflow: "hidden", // Ensures no overflow occurs
-          // Keep the scaling start point to the left
-        }}
-      ></motion.div> */}
-
       <motion.main
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

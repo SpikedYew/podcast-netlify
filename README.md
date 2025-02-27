@@ -9,14 +9,28 @@
 
 - Toast at form when send
 
-- Email to kontakt@studiouszko.pl
-
-- Pdf broshure of interior designs/ slide show
-
-- slideshow to display on tv
-
 - Showcase studio
 
 - Animations
 
 - Check out inifnity floating elements in background
+
+  useEffect(() => {
+  fetch(
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZMkfGS_gdQmKRjZOaF7yvysVHnn6Qa0nHElhIzJz2MjOfgPAIGqG0f-6QaeYO9tktiB3FkVN6qNFG/pub?output=tsv"
+  )
+  .then((res) => {
+  return res.text();
+  })
+  .then((text) => {
+
+        const rows = text
+          .trim()
+          .split("\n")
+          .map((row) => row.split("\t")); // Convert TSV to Array
+        setData(rows);
+        console.log(rows);
+      })
+      .catch((err) => console.error("Error fetching data:", err));
+
+  }, []);

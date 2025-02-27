@@ -20,7 +20,11 @@ export default function Carousel({ darkMode }: DarkMode) {
           alt=""
           className="w-[70%] p-4"
         />
-        <BsArrowRightCircleFill size={40} fill={darkMode ? "white" : "black"} />
+        <BsArrowRightCircleFill
+          onClick={() => setImage(1)}
+          size={40}
+          fill={darkMode ? "white" : "black"}
+        />
       </div>
     </>
   );

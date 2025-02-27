@@ -67,7 +67,7 @@ export default function ContactForm() {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="flex flex-col gap-6 w-[100%] max-w-[98vw] p-6 md:max-w-lg mx-auto bg-gray-50 dark:bg-gray-50 dark:border shadow-md"
+      className="flex flex-col gap-6 w-[100%] max-w-[98vw] p-6 md:max-w-lg mx-auto   shadow-xl shadow-[#00000024] dark:border dark:border-gray-900"
     >
       <label
         htmlFor="name"

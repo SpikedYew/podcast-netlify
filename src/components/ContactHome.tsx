@@ -14,11 +14,11 @@ export default function ContactHome({ darkMode }: DarkMode) {
             <h1 className="text-xl font-bold mb-4">Zadzwoń do nas!</h1>
             <div className="flex justify-between mb-2">
               <h2>Bartosz Chmielecki</h2>
-              <h2>+48 511 922 812</h2>
+              <h2>+48 533 320 515</h2>
             </div>
             <div className="flex justify-between mb-2">
               <h2>Paweł Glosz</h2>
-              <h2>+48 223 001 235</h2>
+              <h2>+48 605 508 340</h2>
             </div>
             <div className="flex justify-between mb-2">
               <h2>Paweł Wawrzynek</h2>

@@ -1,4 +1,4 @@
-import { Mic, Clapperboard, Camera } from "lucide-react";
+import { Mic, Clapperboard, BadgeCheck } from "lucide-react";
 // import { useState } from "react";
 
 const iconsData: Data[] = [
@@ -15,7 +15,7 @@ const iconsData: Data[] = [
     price: "580",
   },
   {
-    icon: Camera,
+    icon: BadgeCheck,
     text: "Gotowy Podcast",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illumdolores iste sit eos doloribus officia molestias quae delenitiveritatis numquam neque accusamus.",
     price: "1000",

@@ -45,7 +45,7 @@ export default function Fotter() {
               </li>
               <li>
                 <Link to="/" className="hover:underline">
-                  tel: +48 882 514 736
+                  tel: +48 533 320 515
                 </Link>
               </li>
             </ul>

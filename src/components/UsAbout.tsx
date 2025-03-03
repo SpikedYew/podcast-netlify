@@ -15,18 +15,25 @@ export default function UsAbout() {
               Bartosz Chmielecki - Manager
             </h2>
             <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 text-center md:text-left">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
-              dolores iste sit eos doloribus officia molestias quae deleniti
-              veritatis numquam neque accusamus, sed dolorem eius,
-              exercitationem magni quia nihil corporis.
+              Masz pomysł na podcast, potrzebujesz animacji lub grafiki, a może
+              chcesz dowiedzieć się więcej o naszym studio? Zadzwoń do mnie.
+              Umówię Twoją wizytę, przygotuję grafikę, zaplanuję harmonogram
+              publikacji, stworzę animacje i zajmę się wszystkim, czego
+              potrzebujesz. Ode mnie dowiesz się wszystkiego o naszym studio.
+              Tworzę również profesjonalne i nowoczesne strony internetowe.
             </p>
-            <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 text-center md:text-left">
-              +48 533 320 515
+            <p className="pt-4 text-sm md:text-base dark:text-gray-200 hover:underline text-gray-750 text-center md:text-left">
+              <a href="tel:48533320515"> +48 533 320 515 </a>
             </p>
             <div className="mt-4 text-center md:text-left">
-              <button className="px-6 py-2 bg-dark text-white rounded-md">
-                Explore Offer
-              </button>
+              <a
+                href="https://www.instagram.com/bartoszchmieleckiweb/"
+                target="_blank"
+              >
+                <button className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark dark:hover:text-light rounded-md">
+                  Zobacz więcej!
+                </button>
+              </a>
             </div>
           </div>
           <LazyLoadImage
@@ -42,18 +49,22 @@ export default function UsAbout() {
               Paweł Glosz - Audio
             </h2>
             <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 text-center md:text-left">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
-              dolores iste sit eos doloribus officia molestias quae deleniti
-              veritatis numquam neque accusamus, sed dolorem eius,
-              exercitationem magni quia nihil corporis.
+              Zajmuję się wszystkim, co jest związane z audio. Na co dzień
+              pracuję jako realizator dźwięku w MFC Studio, uczę gry na gitarze
+              i tworzę autorską muzykę. W Studiu Uszko odpowiadam za nagrywanie
+              audio, obróbkę materiałów dźwiękowych oraz komponowanie jingli,
+              które będą promować Twój projekt. Krótko mówiąc: dźwięk, który
+              wpadnie Ci w uszko!
             </p>
-            <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 text-center md:text-left">
-              +48 605 508 340
+            <p className="pt-4 text-sm md:text-base dark:text-gray-200 hover:underline text-gray-750 text-center md:text-left">
+              <a href="tel:48605508340">+48 605 508 340</a>
             </p>
             <div className="mt-4 text-center md:text-left">
-              <button className="px-6 py-2 bg-dark text-white rounded-md">
-                Contact Us
-              </button>
+              <a href="https://mfcstudio.pl/" target="_blank">
+                <button className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark dark:hover:text-light rounded-md">
+                  Zobacz więcej!
+                </button>
+              </a>
             </div>
           </div>
           <LazyLoadImage
@@ -74,13 +85,18 @@ export default function UsAbout() {
               veritatis numquam neque accusamus, sed dolorem eius,
               exercitationem magni quia nihil corporis.
             </p>
-            <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 text-center md:text-left">
-              +48 223 109 102
+            <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 hover:underline text-center md:text-left">
+              <a href="tel:48790504071">+48 790 504 071</a>
             </p>
             <div className="mt-4 text-center md:text-left">
-              <button className="px-6 py-2 bg-dark text-white rounded-md">
-                Learn More
-              </button>
+              <a
+                href="https://www.instagram.com/wawrzynekpawel/"
+                target="_blank"
+              >
+                <button className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark dark:hover:text-light rounded-md">
+                  Zobacz więcej!
+                </button>
+              </a>
             </div>
           </div>
           <LazyLoadImage

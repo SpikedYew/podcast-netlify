@@ -27,7 +27,7 @@ export default function ContactHome({ darkMode }: DarkMode) {
             <h1 className="text-xl font-bold mb-4">Napisz do nas!</h1>
             <div className="flex justify-between mb-2">
               <h2>Studio</h2>
-              <h2>studio@studiouszko.pl</h2>
+              <h2>kontakt@studiouszko.pl</h2>
             </div>
           </div>
           <div

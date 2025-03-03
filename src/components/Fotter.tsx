@@ -32,21 +32,35 @@ export default function Fotter() {
           </div>
           <div>
             <ul className="flex flex-col justify-center ">
-              <li>Bartosz Chmielecki</li>
               <li>
-                <Link to="/" className="hover:underline">
+                <a
+                  href="https://www.instagram.com/bartoszchmieleckiweb/"
+                  target="_blank"
+                  className="hover:underline"
+                >
+                  Bartosz Chmielecki
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mfcstudio.pl/"
+                  target="_blank"
+                  className="hover:underline"
+                >
                   Paweł Glosz
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/" className="hover:underline">
+                <a
+                  href="https://www.instagram.com/wawrzynekpawel/"
+                  target="_blank"
+                  className="hover:underline"
+                >
                   Paweł Wawrzynek
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/" className="hover:underline">
-                  tel: +48 533 320 515
-                </Link>
+                <a href="tel:48533320515"> tel: +48 533 320 515</a>
               </li>
             </ul>
           </div>

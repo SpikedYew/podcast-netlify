@@ -1,5 +1,5 @@
 import Photo2 from "../assets/studio-1.jpg";
-import Photo3 from "../assets/us.jpg";
+import Photo3 from "../assets/22.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function UsComponent() {

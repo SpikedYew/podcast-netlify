@@ -5,19 +5,19 @@ const iconsData: Data[] = [
   {
     icon: Mic,
     text: "Nagraj Audio",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illumdolores iste sit eos doloribus officia molestias quae delenitiveritatis numquam neque accusamus.",
+    desc: "Nagrywamy profesjonalne ścieżki dźwiękowe w wysokiej jakości. Oferujemy czyste, dobrze brzmiące nagrania, bez zbędnych szumów i zakłóceń. Możemy również zadbać o edycję dźwięku i mastering, aby Twój podcast brzmiał profesjonalnie.",
     price: "280",
   },
   {
     icon: Clapperboard,
     text: "Nagraj Video",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illumdolores iste sit eos doloribus officia molestias quae delenitiveritatis numquam neque accusamus.",
+    desc: "Nagrywamy wideo w jakości 4K, zapewniając doskonały obraz. Profesjonalne oświetlenie, kadrowanie i edycja pozwalają uzyskać wysokiej klasy materiał, który świetnie sprawdzi się na YouTube lub innych platformach.",
     price: "580",
   },
   {
     icon: BadgeCheck,
     text: "Gotowy Podcast",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illumdolores iste sit eos doloribus officia molestias quae delenitiveritatis numquam neque accusamus.",
+    desc: "Kompleksowa usługa – nagranie, montaż i pełna postprodukcja. Otrzymujesz gotowy podcast w wersji audio i wideo, zmontowany, poprawiony pod względem dźwięku i obrazu, gotowy do publikacji. Możemy dodać intro, outro, efekty dźwiękowe i napisy.",
     price: "1000",
   },
 ];
@@ -38,7 +38,7 @@ export default function OfferComp() {
           <div
             // onMouseEnter={() => setSize(true)}
             // onMouseLeave={() => setSize(false)}
-            className="w-lg min-w-[320px] transition-all hover:min-w-[380px] max-w-[360px] min-h-[200px] hover:min-h-[220px]  shadow-2xl shadow-[#01010141] p-10"
+            className="w-lg min-w-[90vw] sm:min-w-[320px] transition-all hover:min-w-[380px] max-w-[260px] max-h-[500px] min-h-[500px] hover:min-h-[510px]  shadow-2xl shadow-[#01010141] p-10"
           >
             <IconComp className="h-10 w-10 mb-4" key={i}></IconComp>
             <h3 className="font-semibold text-2xl mb-3">{val.text}</h3>

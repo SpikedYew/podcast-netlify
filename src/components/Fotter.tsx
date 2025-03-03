@@ -24,6 +24,11 @@ export default function Fotter() {
                 </Link>
               </li>
               <li>
+                <Link to="/oferta" className="hover:underline">
+                  Oferta
+                </Link>
+              </li>
+              <li>
                 <Link to="/kontakt" className="hover:underline">
                   Kontakt
                 </Link>

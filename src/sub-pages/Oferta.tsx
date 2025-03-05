@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { Video, Crop, Plus } from "lucide-react";
 
-export interface DarkMode {
-  darkMode: boolean;
-}
+// export interface DarkMode {
+//   darkMode: boolean;
+// }
 
-export default function Oferta({ darkMode }: DarkMode) {
+export default function Oferta() {
   const [data, setData] = useState<string[][]>([]);
 
   useEffect(() => {

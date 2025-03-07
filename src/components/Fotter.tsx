@@ -65,7 +65,16 @@ export default function Fotter() {
                 </a>
               </li>
               <li>
-                <a href="tel:48533320515"> tel: +48 533 320 515</a>
+                <a className="hover:underline" href="tel:48533320515">
+                  {" "}
+                  tel: +48 533 320 515
+                </a>
+              </li>
+              <li>
+                <a className="hover:underline" href="/polityka-prywatnosci">
+                  {" "}
+                  Polityka Prywatności
+                </a>
               </li>
             </ul>
           </div>

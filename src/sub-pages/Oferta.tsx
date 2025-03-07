@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Video, Crop, Plus } from "lucide-react";
+import { Video, Crop } from "lucide-react";
 
 // export interface DarkMode {
 //   darkMode: boolean;
@@ -83,7 +83,7 @@ export default function Oferta() {
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-800 whitespace-nowrap dark:text-white"
                 >
-                  Montaz Audio
+                  Montaż Audio
                 </th>
                 {data[2]?.map((header, i) => (
                   <td key={i} scope="col" className="px-6 py-3">
@@ -96,7 +96,7 @@ export default function Oferta() {
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-800 whitespace-nowrap dark:text-white"
                 >
-                  Montaz Audio + Wideo
+                  Montaż Audio + Video
                 </th>
                 {data[3]?.map((header, i) => (
                   <td key={i} scope="col" className="px-6 py-3">
@@ -137,7 +137,7 @@ export default function Oferta() {
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
-                  Gotowy materiał
+                  Animacja od
                 </th>
 
                 {data[4]?.map((header, i) => (
@@ -151,7 +151,7 @@ export default function Oferta() {
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-800 whitespace-nowrap dark:text-white"
                 >
-                  Automatyzacja
+                  Jingiel od
                 </th>
                 {data[5]?.map((header, i) => (
                   <td key={i} scope="col" className="px-6 py-3">
@@ -164,7 +164,7 @@ export default function Oferta() {
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-800 whitespace-nowrap dark:text-white"
                 >
-                  Montaz Audio
+                  Rolki od
                 </th>
                 {data[6]?.map((header, i) => (
                   <td key={i} scope="col" className="px-6 py-3">
@@ -177,7 +177,7 @@ export default function Oferta() {
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-800 whitespace-nowrap dark:text-white"
                 >
-                  Montaz Audio + Wideo
+                  Grafika od
                 </th>
                 {data[7]?.map((header, i) => (
                   <td key={i} scope="col" className="px-6 py-3">
@@ -188,7 +188,7 @@ export default function Oferta() {
             </tbody>
           </table>
         </div>
-        <h1 className="text-4xl mb-4 font-semibold flex items-center pl-6">
+        {/* <h1 className="text-4xl mb-4 font-semibold flex items-center pl-6">
           Dodatki <Plus size={35} className="ml-4 dark:text-light text-dark " />
         </h1>
         <hr />
@@ -266,7 +266,7 @@ export default function Oferta() {
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> */}
       </section>
     </>
   );

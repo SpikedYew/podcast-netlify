@@ -1,5 +1,5 @@
-import Photo2 from "../assets/studio-1.jpg";
-import Photo3 from "../assets/22.jpg";
+import Photo2 from "../assets/studio-1.webp";
+import Photo3 from "../assets/studio-2.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function UsComponent() {
@@ -11,14 +11,13 @@ export default function UsComponent() {
             Poznaj nasze studio!
           </h2>
           <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 text-center md:text-left">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
-            dolores iste sit eos doloribus officia molestias quae deleniti
-            veritatis numquam neque accusamus, sed dolorem eius, exercitationem
-            magni quia nihil corporis.
+            Nasze studio podcastowe to przestrzeń, w której stworzysz
+            profesjonalne nagrania. Zachęcamy do obejrzenia naszej galerii
+            zdjęć!
           </p>
           <div className="mt-4 text-center md:text-left">
-            <button className="px-6 py-2 bg-dark text-white rounded-md">
-              Learn More
+            <button className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md">
+              <a href="/studio">Zobacz więcej!</a>
             </button>
           </div>
         </div>
@@ -40,8 +39,8 @@ export default function UsComponent() {
             magni quia nihil corporis.
           </p>
           <div className="mt-4 text-center md:text-left">
-            <button className="px-6 py-2 bg-dark text-white rounded-md">
-              Learn More
+            <button className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md">
+              <a href="/kontakt">Zobacz więcej!</a>
             </button>
           </div>
         </div>

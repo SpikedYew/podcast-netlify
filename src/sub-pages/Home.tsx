@@ -1,9 +1,9 @@
 import { ReactTyped } from "react-typed";
-import Photo1 from "../assets/test1.jpg";
+import Photo1 from "../assets/krolik.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import IconComp from "../components/IconComp";
 import UsComponent from "../components/UsComponent";
-import Portfolio from "../components/Portfolio";
+// import Portfolio from "../components/Portfolio";
 import ContactHome from "../components/ContactHome";
 import { Helmet } from "react-helmet";
 import OfferComp from "../components/OfferComp";
@@ -65,9 +65,7 @@ export default function Home({ darkMode }: DarkMode) {
       <section>
         <UsComponent />
       </section>
-      <section>
-        <Portfolio darkMode={darkMode} />
-      </section>
+      <section>{/* <Portfolio darkMode={darkMode} /> */}</section>
       <section className="w-[80%] md:w-auto h-[100%] sm:min-h-[30vh]  text-dark dark:text-light pt-2 md:p-10 mx-auto flex max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl items-center justify-start">
         <OfferComp />
       </section>

@@ -62,12 +62,11 @@ const Portfolio = ({ darkMode }: DarkMode) => {
           Realizacje
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {videos.map((video) => (
-            <>
+          {videos.map((video, i) => (
+            <div key={i}>
               <motion.div
                 onHoverStart={() => setIsHovered(true)}
                 onHoverEnd={() => setIsHovered(false)}
-                key={video.id}
                 className="bg-light dark:bg-dark shadow-lg  dark:shadow-[0_0px_25px_0px_rgba(355,355,355,0.1)] z-0 overflow-hidden"
               >
                 {/* Video */}
@@ -87,7 +86,7 @@ const Portfolio = ({ darkMode }: DarkMode) => {
                   <p className="text-dark dark:text-light mt-2">{video.desc}</p>
                 </div>
               </motion.div>
-            </>
+            </div>
           ))}
         </div>
       </motion.div>

@@ -1,16 +1,53 @@
 {
   "slides": [
     {
-      "src": "studio-uszko-og.png",
-      "alt": ""
+      "src": "1.webp",
+      "alt": "Studio podcastowe"
     },
     {
-      "src": "logo-pion.png",
-      "alt": ""
+      "src": "2.webp",
+      "alt": "Studio podcastowe"
     },
     {
-      "src": "logo-profis.png",
-      "alt": ""
+      "src": "3.webp",
+      "alt": "Studio podcastowe"
+    },
+    {
+      "src": "4.webp",
+      "alt": "Studio podcastowe"
+    },
+    {
+      "src": "5.webp",
+      "alt": "Studio podcastowe"
+    },
+    {
+      "src": "6.webp",
+      "alt": "Studio podcastowe"
+    },
+    {
+      "src": "7.webp",
+      "alt": "Studio podcastowe"
+    },
+    {
+      "src": "8.webp",
+      "alt": "Studio podcastowe"
+    },
+
+    {
+      "src": "9.webp",
+      "alt": "Studio podcastowe"
+    },
+    {
+      "src": "10.webp",
+      "alt": "Studio podcastowe"
+    },
+    {
+      "src": "11.webp",
+      "alt": "Studio podcastowe"
+    },
+    {
+      "src": "12.webp",
+      "alt": "Studio podcastowe"
     }
   ]
 }

@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import Carousel from "../components/Carousel";
-import VariantsComp from "../components/VariantsComp";
+// import VariantsComp from "../components/VariantsComp";
 export interface DarkMode {
   darkMode: boolean;
 }
@@ -24,7 +24,7 @@ export default function Studio({ darkMode }: DarkMode) {
         <meta property="og:url" content="/studio-uszko-og.png" />
       </Helmet>
       <Carousel darkMode={darkMode} />
-      <VariantsComp />
+      {/* <VariantsComp /> */}
     </>
   );
 }

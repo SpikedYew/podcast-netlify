@@ -24,7 +24,7 @@ export default function Kontakt({ darkMode }: DarkMode) {
 
       <h2 className="font-bold text-xl md:text-2xl text-center md:center mt-14">
         {/* Zostaw nam wiadmość, odezwiemy się do 24h! */}
-        Test!
+        Zostaw wiadomość, a odpowiemy w ciągu 24h! Do usłyszenia w Studio Uszko!
       </h2>
       <div className="sm:max-w-6xl mx-auto p-4 mt-4 mb-4 max-w-[98vw] min-h-[60vh]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[98vw]">

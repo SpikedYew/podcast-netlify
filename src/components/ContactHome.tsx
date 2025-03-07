@@ -14,15 +14,21 @@ export default function ContactHome({ darkMode }: DarkMode) {
             <h1 className="text-xl font-bold mb-4">Zadzwoń do nas!</h1>
             <div className="flex justify-between mb-2">
               <h2>Bartosz Chmielecki</h2>
-              <h2>+48 533 320 515</h2>
+              <p className=" text-sm md:text-base dark:text-gray-200 text-gray-750 hover:underline text-center md:text-left">
+                <a href="tel:48533 320 515">+48 533 320 515</a>
+              </p>
             </div>
             <div className="flex justify-between mb-2">
               <h2>Paweł Glosz</h2>
-              <h2>+48 605 508 340</h2>
+              <p className=" text-sm md:text-base dark:text-gray-200 text-gray-750 hover:underline text-center md:text-left">
+                <a href="tel:48605 508 340">+48 605 508 340</a>
+              </p>
             </div>
             <div className="flex justify-between mb-2">
               <h2>Paweł Wawrzynek</h2>
-              <h2>+48 512 221 024</h2>
+              <p className=" text-sm md:text-base dark:text-gray-200 text-gray-750 hover:underline text-center md:text-left">
+                <a href="tel:48790504071">+48 790 504 071</a>
+              </p>
             </div>
             <h1 className="text-xl font-bold mb-4">Napisz do nas!</h1>
             <div className="flex justify-between mb-2">

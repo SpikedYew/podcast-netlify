@@ -1,7 +1,7 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import Photo1 from "../assets/glosz.jpg";
-import Photo2 from "../assets/ja.jpg";
-import Photo3 from "../assets/wawrzyn.jpg";
+import Photo1 from "../assets/glosz.webp";
+import Photo2 from "../assets/ja.webp";
+import Photo3 from "../assets/wawrzyn.webp";
 
 export default function UsAbout() {
   return (
@@ -30,7 +30,7 @@ export default function UsAbout() {
                 href="https://www.instagram.com/bartoszchmieleckiweb/"
                 target="_blank"
               >
-                <button className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark dark:hover:text-light rounded-md">
+                <button className="px-6 py-2 bg-dark transition-all dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md">
                   Zobacz więcej!
                 </button>
               </a>
@@ -61,7 +61,7 @@ export default function UsAbout() {
             </p>
             <div className="mt-4 text-center md:text-left">
               <a href="https://mfcstudio.pl/" target="_blank">
-                <button className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark dark:hover:text-light rounded-md">
+                <button className="px-6 py-2 bg-dark transition-all dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md">
                   Zobacz więcej!
                 </button>
               </a>
@@ -80,10 +80,10 @@ export default function UsAbout() {
               Paweł Wawrzynek - Video
             </h2>
             <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 text-center md:text-left">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
-              dolores iste sit eos doloribus officia molestias quae deleniti
-              veritatis numquam neque accusamus, sed dolorem eius,
-              exercitationem magni quia nihil corporis.
+              Na co dzień zajmuję się fotografią, tworząc obrazy, które
+              przyciągają uwagę i opowiadają historie. W Studiu Uszko działam w
+              świecie podcastów i wideo , dbając o jakość nagrań, montaż i
+              wizualną stronę Twojego projektu!
             </p>
             <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 hover:underline text-center md:text-left">
               <a href="tel:48790504071">+48 790 504 071</a>
@@ -93,7 +93,7 @@ export default function UsAbout() {
                 href="https://www.instagram.com/wawrzynekpawel/"
                 target="_blank"
               >
-                <button className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark dark:hover:text-light rounded-md">
+                <button className="px-6 py-2 bg-dark dark:bg-light transition-all text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md">
                   Zobacz więcej!
                 </button>
               </a>

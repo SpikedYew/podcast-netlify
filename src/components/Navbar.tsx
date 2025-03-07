@@ -51,10 +51,18 @@ const Navbar = ({ darkMode, setDarkMode }: DarkMode) => {
               transition={{ duration: 0.5 }}
               className=" h-screen w-[60%] p-5 bg-light dark:bg-dark"
             >
-              <button className="m-5" onClick={() => isMenuOpen(!menuOpen)}>
+              <button
+                aria-label="Otwórz - Zamknij Menu"
+                className="m-5"
+                onClick={() => isMenuOpen(!menuOpen)}
+              >
                 <X height={40} width={40} className="dark:text-light" />
               </button>
-              <button onClick={() => setDarkMode(!darkMode)} className="">
+              <button
+                aria-label="Jasny - Ciemny tryb"
+                onClick={() => setDarkMode(!darkMode)}
+                className=""
+              >
                 {darkMode ? (
                   <Moon height={40} width={40} className="text-light" />
                 ) : (
@@ -121,12 +129,28 @@ const Navbar = ({ darkMode, setDarkMode }: DarkMode) => {
         className="bg-light dark:bg-dark sticky top-0 z-10 flex  md:hidden w-full justify-between shadow-2xl dark:shadow-[#bbbbbb17]"
       >
         {!darkMode ? (
-          <img src={Logo} width={120} height={120} className="ml-5" />
+          <img
+            alt="Logo Studio Uszko"
+            src={Logo}
+            width={120}
+            height={120}
+            className="ml-5"
+          />
         ) : (
-          <img src={LogoDark} width={120} height={120} className="ml-5" />
+          <img
+            alt="Logo Studio Uszko"
+            src={LogoDark}
+            width={120}
+            height={120}
+            className="ml-5"
+          />
         )}
 
-        <button className="m-5" onClick={() => isMenuOpen(!menuOpen)}>
+        <button
+          aria-label="Otwórz - Zamknij Menu"
+          className="m-5"
+          onClick={() => isMenuOpen(!menuOpen)}
+        >
           <Menu height={30} width={30} className="dark:text-light" />
         </button>
       </motion.nav>
@@ -141,9 +165,14 @@ const Navbar = ({ darkMode, setDarkMode }: DarkMode) => {
       >
         <div className="flex justify-between min-w-[90%] max-w-screen-xl">
           {!darkMode ? (
-            <img src={Logo} width={115} height={140} />
+            <img alt="Logo Studio Uszko" src={Logo} width={115} height={140} />
           ) : (
-            <img src={LogoDark} width={115} height={140} />
+            <img
+              alt="Logo Studio Uszko"
+              src={LogoDark}
+              width={115}
+              height={140}
+            />
           )}
           <ul className="flex space-x-4 my-auto">
             <li>
@@ -189,6 +218,7 @@ const Navbar = ({ darkMode, setDarkMode }: DarkMode) => {
             </li>
           </ul>
           <button
+            aria-label="Jasny - Ciemny tryb"
             onClick={() => setDarkMode(!darkMode)}
             className="my-auto p-1 ml-5 h-10 w-5"
           >

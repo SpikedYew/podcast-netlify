@@ -16,12 +16,16 @@ export default function UsComponent() {
             zdjęć!
           </p>
           <div className="mt-4 text-center md:text-left">
-            <button className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md">
+            <button
+              aria-label="Studio"
+              className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md"
+            >
               <a href="/studio">Zobacz więcej!</a>
             </button>
           </div>
         </div>
         <LazyLoadImage
+          alt="Studio Podcastowe - Studio Uszko"
           src={Photo2}
           className="w-full md:w-[50%] h-auto object-cover"
         />
@@ -39,12 +43,16 @@ export default function UsComponent() {
             magni quia nihil corporis.
           </p>
           <div className="mt-4 text-center md:text-left">
-            <button className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md">
+            <button
+              aria-label="Kontakt"
+              className="px-6 py-2 bg-dark dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md"
+            >
               <a href="/kontakt">Zobacz więcej!</a>
             </button>
           </div>
         </div>
         <LazyLoadImage
+          alt="Nagranie podcastu - Studio Uszko"
           src={Photo3}
           className="w-full md:w-[50%] h-auto object-cover"
         />

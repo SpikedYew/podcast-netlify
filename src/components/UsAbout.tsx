@@ -30,13 +30,17 @@ export default function UsAbout() {
                 href="https://www.instagram.com/bartoszchmieleckiweb/"
                 target="_blank"
               >
-                <button className="px-6 py-2 bg-dark transition-all dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md">
+                <button
+                  aria-label="Strony Internetowe i Grafika"
+                  className="px-6 py-2 bg-dark transition-all dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md"
+                >
                   Zobacz więcej!
                 </button>
               </a>
             </div>
           </div>
           <LazyLoadImage
+            alt="Bartosz Chmielecki - Grafika i Strony Internetowe"
             src={Photo2}
             className="w-full md:w-[50%] max-h-[500px] object-cover"
           />
@@ -61,13 +65,17 @@ export default function UsAbout() {
             </p>
             <div className="mt-4 text-center md:text-left">
               <a href="https://mfcstudio.pl/" target="_blank">
-                <button className="px-6 py-2 bg-dark transition-all dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md">
+                <button
+                  aria-label="Nagrywanie dzwięku Paweł Glosz - MFC STUDIO"
+                  className="px-6 py-2 bg-dark transition-all dark:bg-light text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md"
+                >
                   Zobacz więcej!
                 </button>
               </a>
             </div>
           </div>
           <LazyLoadImage
+            alt="Paweł Glosz - Nagrywanie Audio"
             src={Photo1}
             className="w-full md:w-[50%] max-h-[500px] object-cover"
           />
@@ -93,13 +101,17 @@ export default function UsAbout() {
                 href="https://www.instagram.com/wawrzynekpawel/"
                 target="_blank"
               >
-                <button className="px-6 py-2 bg-dark dark:bg-light transition-all text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md">
+                <button
+                  aria-label="Fotografia i nagrywanie Wideo - Paweł Wawrzynek"
+                  className="px-6 py-2 bg-dark dark:bg-light transition-all text-light hover:bg-light dark:hover:bg-dark dark:text-dark  hover:text-dark hover:border dark:hover:text-light rounded-md"
+                >
                   Zobacz więcej!
                 </button>
               </a>
             </div>
           </div>
           <LazyLoadImage
+            alt="Paweł Wawrzynek - Nagrywanie Wideo "
             src={Photo3}
             className="w-full md:w-[50%] max-h-[500px] object-cover"
           />

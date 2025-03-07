@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Video, Crop } from "lucide-react";
+import { Helmet } from "react-helmet";
 
 // export interface DarkMode {
 //   darkMode: boolean;
@@ -25,7 +26,25 @@ export default function Oferta() {
 
   return (
     <>
-      {" "}
+      <Helmet>
+        <title>Oferta</title>
+        <meta
+          name="description"
+          content="Studio Uszko oferuje profesjonalną produkcję, nagrywanie i edycję podcastów. Zapewniamy wysoką jakość audio dla firm, twórców i influencerów."
+        />
+        <meta
+          name="keywords"
+          content="Studio podcastowe, Produkcja podcastów, Nagrywanie podcastów, Edycja audio, Usługi podcastowe, Tworzenie podcastów, Montaż podcastów, Profesjonalne studio audio, Podcasty na zamówienie, Studio nagrań, Produkcja dźwięku, Nagrywanie rozmów, Podcasty dla firm, Studio nagrań w [Miasto], Sesje nagraniowe, Usługi audio dla podcastów, Studio nagrań dla twórców, Profesjonalna produkcja dźwięku, Podcasty biznesowe, Nagrywanie podcastów online, Edycja podcastów, Nagrania do podcastów, Podcasty dla influencerów, Podcasty edukacyjne, Audio branding podcastów, Podcasty z wywiadami, Twórczość audio, Producent podcastów, Obsługa podcastów, Studio do wynajęcia na nagrania."
+        />
+
+        <meta property="og:title" content="Studio Podcastowe - Studio Uszko" />
+        <meta
+          property="og:description"
+          content="Studio Uszko oferuje profesjonalną produkcję, nagrywanie i edycję podcastów. Zapewniamy wysoką jakość audio dla firm, twórców i influencerów."
+        />
+        <meta property="og:image" content="/studio-uszko-og.png" />
+        <meta property="og:url" content="/studio-uszko-og.png" />
+      </Helmet>{" "}
       <section className="text-dark dark:text-[#f6f6f6] mt-10 mb-10 mx-auto flex-col flex max-w-[90vw] md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl ">
         <h1 className="text-4xl mb-4 font-semibold flex items-center pl-6">
           Nagrywanie{" "}

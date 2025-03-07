@@ -97,9 +97,14 @@ const Portfolio = ({ darkMode }: DarkMode) => {
           transition={{ duration: 0.4 }}
         >
           {!darkMode ? (
-            <img src={Ears} width={100} height={100} />
+            <img alt="Logo Studio Uszko" src={Ears} width={100} height={100} />
           ) : (
-            <img src={EarsLight} width={100} height={100} />
+            <img
+              alt="Logo Studio Uszko"
+              src={EarsLight}
+              width={100}
+              height={100}
+            />
           )}
         </motion.div>
       </div>

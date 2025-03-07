@@ -11,14 +11,16 @@ export default function Studio({ darkMode }: DarkMode) {
         <title>Studio</title>
         <meta
           name="description"
-          content="Poznaj nas blizej i dowiedz się co takiego tworzymy w naszym studio!"
+          content="Studio Uszko oferuje profesjonalną produkcję, nagrywanie i edycję podcastów. Zapewniamy wysoką jakość audio dla firm, twórców i influencerów."
         />
-        <meta name="keywords" content="" />
-
-        <meta property="og:title" content="Amazing Website" />
+        <meta
+          name="keywords"
+          content="Studio podcastowe, Produkcja podcastów, Nagrywanie podcastów, Edycja audio, Usługi podcastowe, Tworzenie podcastów, Montaż podcastów, Profesjonalne studio audio, Podcasty na zamówienie, Studio nagrań, Produkcja dźwięku, Nagrywanie rozmów, Podcasty dla firm, Studio nagrań w [Miasto], Sesje nagraniowe, Usługi audio dla podcastów, Studio nagrań dla twórców, Profesjonalna produkcja dźwięku, Podcasty biznesowe, Nagrywanie podcastów online, Edycja podcastów, Nagrania do podcastów, Podcasty dla influencerów, Podcasty edukacyjne, Audio branding podcastów, Podcasty z wywiadami, Twórczość audio, Producent podcastów, Obsługa podcastów, Studio do wynajęcia na nagrania."
+        />
+        <meta property="og:title" content="Studio Podcastowe - Studio Uszko" />
         <meta
           property="og:description"
-          content="This is a great website about amazing topics."
+          content="Studio Uszko oferuje profesjonalną produkcję, nagrywanie i edycję podcastów. Zapewniamy wysoką jakość audio dla firm, twórców i influencerów."
         />
         <meta property="og:image" content="/studio-uszko-og.png" />
         <meta property="og:url" content="/studio-uszko-og.png" />

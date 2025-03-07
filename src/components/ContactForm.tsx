@@ -76,13 +76,14 @@ export default function ContactForm() {
         Imię
       </label>
       <input
+        aria-label="Imię"
         value={formData.from_name}
         onChange={handleChange}
         type="text"
         id="name"
         name="from_name"
         required
-        className="p-3 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-dark"
+        className="p-3 border border-gray-300 rounded-sm focus:outline-none dark:bg-gray-200 focus:ring-2 focus:ring-dark"
       />
 
       <label
@@ -92,13 +93,14 @@ export default function ContactForm() {
         E-mail
       </label>
       <input
+        aria-label="E-mail"
         value={formData.from_email}
         onChange={handleChange}
         type="email"
         id="email"
         name="from_email"
         required
-        className="p-3 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-dark"
+        className="p-3 border border-gray-300 rounded-sm focus:outline-none dark:bg-gray-200 focus:ring-2 focus:ring-dark"
       />
 
       <label
@@ -108,17 +110,19 @@ export default function ContactForm() {
         Wiadomość
       </label>
       <textarea
+        aria-label="Wiadomość"
         value={formData.message}
         onChange={handleChange}
         id="message"
         name="message"
         required
-        className="p-3 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-dark dark:focus:ring-light resize-none"
+        className="p-3 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 dark:bg-gray-200 focus:ring-dark dark:focus:ring-light resize-none"
       />
 
       {/* Honeypot field */}
       <input
         type="text"
+        aria-label="Honeypot"
         name="honeypot"
         style={{ display: "none" }}
         value={honeypot}
@@ -126,6 +130,7 @@ export default function ContactForm() {
       />
 
       <button
+        aria-label="Wyślij formularz kontaktowy"
         type="submit"
         disabled={isLoading}
         className={`p-3 text-light dark:text-dark font-bold rounded-md transition-colors duration-300 ${

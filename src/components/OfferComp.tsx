@@ -31,7 +31,7 @@ interface Data {
 export default function OfferComp() {
   //   const [size, setSize] = useState<Boolean>(true);
   return (
-    <div className="min-h-[450px] flex flex-col lg:flex-row  justify-around items-center w-full ">
+    <div className="md:min-h-[450px] flex flex-col lg:flex-row  justify-around items-center w-full ">
       {iconsData.map((val, i) => {
         const IconComp = val.icon;
         return (
@@ -39,14 +39,14 @@ export default function OfferComp() {
             // onMouseEnter={() => setSize(true)}
             // onMouseLeave={() => setSize(false)}
             key={i}
-            className="w-lg min-w-[90vw] mb-5 mt-5 lg:mb-0 lg:mt-0 lg:min-w-[320px] transition-all hover:min-w-[340px] max-w-[260px] max-h-[500px] min-h-[500px] hover:min-h-[510px]  shadow-2xl shadow-[#01010141] dark:shadow-[0_0px_25px_0px_rgba(355,355,355,0.1)] p-10"
+            className="w-lg min-w-[90vw] mb-5 mt-5 lg:mb-0 lg:mt-0  lg:min-w-[320px] transition-all md:hover:min-w-[340px] max-w-[260px] max-h-[500px] md:min-h-[500px] md:hover:min-h-[510px]  shadow-2xl shadow-[#01010141] dark:shadow-[0_0px_25px_0px_rgba(355,355,355,0.1)] p-10"
           >
             <IconComp className="h-10 w-10 mb-4"></IconComp>
             <h3 className="font-semibold text-2xl mb-3">{val.text}</h3>
-            <p className="text-lg mb-2 text-gray-800 dark:text-gray-200">
+            <p className=" text-sm md:text-lg mb-2 text-gray-800 dark:text-gray-200">
               {val.desc}
             </p>
-            <p className="text-lg text-black">od {val.price} zł</p>
+            <p className="text-sm md:text-lg text-black">od {val.price} zł</p>
             {/* <button className="w-full flex justify-center font-semibold mt-4 text-md ">
               <p className="w-fit transition-all bg-black hover:bg-white hover:text-black hover:shadow-[#01010141] hover:shadow-xl text-white p-2 rounded-md">
                 Czytaj więcej

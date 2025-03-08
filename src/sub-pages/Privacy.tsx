@@ -23,7 +23,7 @@ export default function Privacy() {
         <meta property="og:url" content="/studio-uszko-og.png" />
       </Helmet>
       <div className="flex w-full items-center justify-center">
-        <div className="politykaPrywatnosci max-w-screen-md pt-10">
+        <div className="politykaPrywatnosci max-w-[90vw] sm:max-w-screen-md pt-10">
           <hr />
           <h2 className="text-xl font-bold">
             Polityka prywatności opisuje zasady przetwarzania przez nas

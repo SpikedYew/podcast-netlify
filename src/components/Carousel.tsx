@@ -40,7 +40,7 @@ export default function Carousel({ darkMode }: DarkMode) {
             animate={{ opacity: 1, x: 0 }} // End position
             exit={{ opacity: 0, x: 0 }} // Exit animation
             transition={{ duration: 2, ease: "easeInOut" }} // Smooth effect
-            className="w-[800px] md:h-[600px] overflow-hidden realtive z-0 items-center justify-center flex "
+            className="w-[800px] h-[300px] md:h-[600px] overflow-hidden realtive z-0 items-center justify-center flex "
           >
             <LazyLoadImage
               src={data.slides[image].src}
@@ -60,11 +60,11 @@ export default function Carousel({ darkMode }: DarkMode) {
           <h2 className="font-bold text-xl md:text-2xl text-center md:text-left">
             Aranżacje
           </h2>
-          <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 text-center md:text-left">
+          <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750  md:text-left">
             Oferujemy idealne warunki do tworzenia treści, umożliwiając
             dostosowanie ustawień do Twoich indywidualnych potrzeb. W tym koloru
-            i jasności światła, ustawienie kadru oraz mikrofonów, a także
-            zaaranżowanie scenografii.
+            i jasności światła, ustawienia kadru oraz mikrofonów, a także
+            zaaranżowania scenografii.
           </p>
         </div>
       </div>

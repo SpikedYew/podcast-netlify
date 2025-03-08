@@ -133,20 +133,14 @@ export default function Oferta() {
         </h1>
         <hr />
         <div className="relative overflow-x-auto">
-          <table className="w-full text-sm md:text-base text-left rtl:text-right text-gray-600 dark:text-gray-400">
+          <table className="w-full md:w-[50%] text-sm md:text-base text-left rtl:text-right text-gray-600 dark:text-gray-400">
             <thead className=" rounded-sm text-gray-700 uppercase   dark:text-gray-200">
               <tr>
                 <th scope="col" className="px-6 py-3">
                   Cennik netto
                 </th>
                 <th scope="col" className="px-6 py-3">
-                  Cena za 1h
-                </th>
-                <th scope="col" className="px-6 py-3">
-                  Cena za 3h
-                </th>
-                <th scope="col" className="px-6 py-3">
-                  Cena za 6h
+                  Cena od
                 </th>
               </tr>
             </thead>
@@ -156,12 +150,12 @@ export default function Oferta() {
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
-                  Animacja od
+                  Animacja
                 </th>
 
                 {data[4]?.map((header, i) => (
                   <td key={i} scope="col" className="px-6 py-3">
-                    {header} zł
+                    {header}
                   </td>
                 ))}
               </tr>
@@ -170,11 +164,11 @@ export default function Oferta() {
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-800 whitespace-nowrap dark:text-white"
                 >
-                  Jingiel od
+                  Jingiel
                 </th>
                 {data[5]?.map((header, i) => (
                   <td key={i} scope="col" className="px-6 py-3">
-                    {header} zł
+                    {header}
                   </td>
                 ))}
               </tr>
@@ -183,11 +177,11 @@ export default function Oferta() {
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-800 whitespace-nowrap dark:text-white"
                 >
-                  Rolki od
+                  Rolki
                 </th>
                 {data[6]?.map((header, i) => (
                   <td key={i} scope="col" className="px-6 py-3">
-                    {header} zł
+                    {header}
                   </td>
                 ))}
               </tr>
@@ -196,11 +190,11 @@ export default function Oferta() {
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-800 whitespace-nowrap dark:text-white"
                 >
-                  Grafika od
+                  Grafika
                 </th>
                 {data[7]?.map((header, i) => (
                   <td key={i} scope="col" className="px-6 py-3">
-                    {header} zł
+                    {header}
                   </td>
                 ))}
               </tr>

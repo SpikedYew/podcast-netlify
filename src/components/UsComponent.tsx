@@ -10,7 +10,7 @@ export default function UsComponent() {
           <h2 className="font-bold text-xl md:text-2xl text-center md:text-left">
             Poznaj nasze studio!
           </h2>
-          <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 text-center md:text-left">
+          <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750  md:text-left">
             Nasze studio podcastowe to przestrzeń, w której stworzysz
             profesjonalne nagrania. Zachęcamy do obejrzenia naszej galerii
             zdjęć!
@@ -36,11 +36,11 @@ export default function UsComponent() {
           <h2 className="font-bold text-xl md:text-2xl text-center md:text-left">
             Skontaktuj się z nami!
           </h2>
-          <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750 text-center md:text-left">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
-            dolores iste sit eos doloribus officia molestias quae deleniti
-            veritatis numquam neque accusamus, sed dolorem eius, exercitationem
-            magni quia nihil corporis.
+          <p className="pt-4 text-sm md:text-base dark:text-gray-200 text-gray-750  md:text-left">
+            Jesteśmy do Twojej dyspozycji i chętnie odpowiemy na wszystkie
+            pytania dotyczące naszych usług i studia. Jeśli potrzebujesz
+            dodatkowych informacji lub chcesz zarezerwować termin nagrania -
+            odpowiemy w ciągu 24 godzin!
           </p>
           <div className="mt-4 text-center md:text-left">
             <button

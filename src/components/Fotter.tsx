@@ -5,7 +5,7 @@ export default function Fotter() {
     <>
       <hr />
       <div className="bg-light text-dark dark:text-light dark:bg-dark p-4 bottom-0  w-full mx-auto ">
-        <div className="container mx-auto flex justify-between w-[300px] md:w-[400px]">
+        <div className="container mx-auto text-sm md:text-md flex justify-between h-[100px] w-[300px] md:w-[400px]">
           <div>
             <ul className="flex flex-col justify-center ">
               <li>
@@ -81,7 +81,7 @@ export default function Fotter() {
         </div>
       </div>
 
-      <div className="text-center mt-4 mb-4">
+      <div className="text-sm md:text-md text-center mt-4 mb-4">
         <p className="text-dark dark:text-light">
           &copy; {new Date().getFullYear()} Studio Uszko
         </p>
